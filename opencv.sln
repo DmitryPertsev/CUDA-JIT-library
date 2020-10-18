@@ -1,0 +1,84 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cv", "cv\src\cv.vcxproj", "{204E2D54-C28A-43B7-9618-3EB8DC7D83D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cvsample", "samples\c\cvsample.vcxproj", "{2820F96A-13D2-4EFE-BC9F-A9AF482026AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cxcore", "cxcore\src\cxcore.vcxproj", "{C30EED12-064C-4314-8A6B-426A11309A88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "highgui", "otherlibs\highgui\highgui.vcxproj", "{C9E08D4A-9489-4D2E-93E3-8138ABA817A5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpgm", "libpgm\libpgm.vcxproj", "{8F43C759-4BBA-4E62-9CDD-F6097FD0E78B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PgmDiff", "PgmDiff\PgmDiff.vcxproj", "{370CB9EC-8C6B-4DE8-B35B-11449CC5DF9F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HaarCUDA", "HaarCUDA\HaarCUDA.vcxproj", "{651643F3-FEB8-4BC0-BB4C-C2C8F46B7411}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug OpenMP|Win32 = Debug OpenMP|Win32
+		Debug|Win32 = Debug|Win32
+		Release OpenMP|Win32 = Release OpenMP|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{204E2D54-C28A-43B7-9618-3EB8DC7D83D1}.Debug OpenMP|Win32.ActiveCfg = Debug OpenMP|Win32
+		{204E2D54-C28A-43B7-9618-3EB8DC7D83D1}.Debug OpenMP|Win32.Build.0 = Debug OpenMP|Win32
+		{204E2D54-C28A-43B7-9618-3EB8DC7D83D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{204E2D54-C28A-43B7-9618-3EB8DC7D83D1}.Debug|Win32.Build.0 = Debug|Win32
+		{204E2D54-C28A-43B7-9618-3EB8DC7D83D1}.Release OpenMP|Win32.ActiveCfg = Release OpenMP|Win32
+		{204E2D54-C28A-43B7-9618-3EB8DC7D83D1}.Release OpenMP|Win32.Build.0 = Release OpenMP|Win32
+		{204E2D54-C28A-43B7-9618-3EB8DC7D83D1}.Release|Win32.ActiveCfg = Debug|Win32
+		{204E2D54-C28A-43B7-9618-3EB8DC7D83D1}.Release|Win32.Build.0 = Debug|Win32
+		{2820F96A-13D2-4EFE-BC9F-A9AF482026AE}.Debug OpenMP|Win32.ActiveCfg = Debug|Win32
+		{2820F96A-13D2-4EFE-BC9F-A9AF482026AE}.Debug OpenMP|Win32.Build.0 = Debug|Win32
+		{2820F96A-13D2-4EFE-BC9F-A9AF482026AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2820F96A-13D2-4EFE-BC9F-A9AF482026AE}.Debug|Win32.Build.0 = Debug|Win32
+		{2820F96A-13D2-4EFE-BC9F-A9AF482026AE}.Release OpenMP|Win32.ActiveCfg = Release|Win32
+		{2820F96A-13D2-4EFE-BC9F-A9AF482026AE}.Release OpenMP|Win32.Build.0 = Release|Win32
+		{2820F96A-13D2-4EFE-BC9F-A9AF482026AE}.Release|Win32.ActiveCfg = Debug|Win32
+		{2820F96A-13D2-4EFE-BC9F-A9AF482026AE}.Release|Win32.Build.0 = Debug|Win32
+		{C30EED12-064C-4314-8A6B-426A11309A88}.Debug OpenMP|Win32.ActiveCfg = Debug OpenMP|Win32
+		{C30EED12-064C-4314-8A6B-426A11309A88}.Debug OpenMP|Win32.Build.0 = Debug OpenMP|Win32
+		{C30EED12-064C-4314-8A6B-426A11309A88}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C30EED12-064C-4314-8A6B-426A11309A88}.Debug|Win32.Build.0 = Debug|Win32
+		{C30EED12-064C-4314-8A6B-426A11309A88}.Release OpenMP|Win32.ActiveCfg = Release OpenMP|Win32
+		{C30EED12-064C-4314-8A6B-426A11309A88}.Release OpenMP|Win32.Build.0 = Release OpenMP|Win32
+		{C30EED12-064C-4314-8A6B-426A11309A88}.Release|Win32.ActiveCfg = Debug|Win32
+		{C30EED12-064C-4314-8A6B-426A11309A88}.Release|Win32.Build.0 = Debug|Win32
+		{C9E08D4A-9489-4D2E-93E3-8138ABA817A5}.Debug OpenMP|Win32.ActiveCfg = Debug OpenMP|Win32
+		{C9E08D4A-9489-4D2E-93E3-8138ABA817A5}.Debug OpenMP|Win32.Build.0 = Debug OpenMP|Win32
+		{C9E08D4A-9489-4D2E-93E3-8138ABA817A5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9E08D4A-9489-4D2E-93E3-8138ABA817A5}.Debug|Win32.Build.0 = Debug|Win32
+		{C9E08D4A-9489-4D2E-93E3-8138ABA817A5}.Release OpenMP|Win32.ActiveCfg = Release|Win32
+		{C9E08D4A-9489-4D2E-93E3-8138ABA817A5}.Release OpenMP|Win32.Build.0 = Release|Win32
+		{C9E08D4A-9489-4D2E-93E3-8138ABA817A5}.Release|Win32.ActiveCfg = Debug|Win32
+		{C9E08D4A-9489-4D2E-93E3-8138ABA817A5}.Release|Win32.Build.0 = Debug|Win32
+		{8F43C759-4BBA-4E62-9CDD-F6097FD0E78B}.Debug OpenMP|Win32.ActiveCfg = Debug|Win32
+		{8F43C759-4BBA-4E62-9CDD-F6097FD0E78B}.Debug OpenMP|Win32.Build.0 = Debug|Win32
+		{8F43C759-4BBA-4E62-9CDD-F6097FD0E78B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8F43C759-4BBA-4E62-9CDD-F6097FD0E78B}.Debug|Win32.Build.0 = Debug|Win32
+		{8F43C759-4BBA-4E62-9CDD-F6097FD0E78B}.Release OpenMP|Win32.ActiveCfg = Release|Win32
+		{8F43C759-4BBA-4E62-9CDD-F6097FD0E78B}.Release OpenMP|Win32.Build.0 = Release|Win32
+		{8F43C759-4BBA-4E62-9CDD-F6097FD0E78B}.Release|Win32.ActiveCfg = Debug|Win32
+		{8F43C759-4BBA-4E62-9CDD-F6097FD0E78B}.Release|Win32.Build.0 = Debug|Win32
+		{370CB9EC-8C6B-4DE8-B35B-11449CC5DF9F}.Debug OpenMP|Win32.ActiveCfg = Debug|Win32
+		{370CB9EC-8C6B-4DE8-B35B-11449CC5DF9F}.Debug OpenMP|Win32.Build.0 = Debug|Win32
+		{370CB9EC-8C6B-4DE8-B35B-11449CC5DF9F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{370CB9EC-8C6B-4DE8-B35B-11449CC5DF9F}.Debug|Win32.Build.0 = Debug|Win32
+		{370CB9EC-8C6B-4DE8-B35B-11449CC5DF9F}.Release OpenMP|Win32.ActiveCfg = Release|Win32
+		{370CB9EC-8C6B-4DE8-B35B-11449CC5DF9F}.Release|Win32.ActiveCfg = Debug|Win32
+		{370CB9EC-8C6B-4DE8-B35B-11449CC5DF9F}.Release|Win32.Build.0 = Debug|Win32
+		{651643F3-FEB8-4BC0-BB4C-C2C8F46B7411}.Debug OpenMP|Win32.ActiveCfg = Debug|Win32
+		{651643F3-FEB8-4BC0-BB4C-C2C8F46B7411}.Debug OpenMP|Win32.Build.0 = Debug|Win32
+		{651643F3-FEB8-4BC0-BB4C-C2C8F46B7411}.Debug|Win32.ActiveCfg = Debug|Win32
+		{651643F3-FEB8-4BC0-BB4C-C2C8F46B7411}.Debug|Win32.Build.0 = Debug|Win32
+		{651643F3-FEB8-4BC0-BB4C-C2C8F46B7411}.Release OpenMP|Win32.ActiveCfg = Release|Win32
+		{651643F3-FEB8-4BC0-BB4C-C2C8F46B7411}.Release OpenMP|Win32.Build.0 = Release|Win32
+		{651643F3-FEB8-4BC0-BB4C-C2C8F46B7411}.Release|Win32.ActiveCfg = Debug|Win32
+		{651643F3-FEB8-4BC0-BB4C-C2C8F46B7411}.Release|Win32.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

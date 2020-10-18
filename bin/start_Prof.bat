@@ -1,0 +1,1 @@
+cvsample.exe --cascade=../data/haarcascades/haarcascade_frontalface_alt.xml frame_0_df_2.jpg
